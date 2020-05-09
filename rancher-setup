@@ -1,0 +1,5 @@
+1. Install docker on machine and ensure docker service running fine.
+2. 
+  run -d --restart=unless-stopped -p 81:80 -p 443:443 -v /opt/ranchar:/var/lib/rancher  rancher/rancher
+# check docker logs for rancher container.
+docker logs
